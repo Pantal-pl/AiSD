@@ -10,7 +10,7 @@ int main()
     }
 }
     void bubbleSort(int tab[]) { // deklaracja funkcji z argumentem
-        for(int i=0; i<14;i++) { // 14 to rozmiar tablicy, nie 11 bo ostatni element jest juz posortowany
+        for(int i=0; i<14;i++) { // 14 to rozmiar tablicy, nie 15 bo ostatni element jest juz posortowany
             for(int j=0;j<14-i;j++) {
                 if(tab[j]>tab[j+1]) { // sprawdzanie czy pierwszy element jest wiekszy niz drugi
                     int temp = tab[j]; // przypisanie elementu tablicy do zmiennej temp
